@@ -1,8 +1,11 @@
-# React + Vite
+# MenuRest
+Esta es una aplicación de menú que permite a los clientes explorar los menús de un restaurante y realizar pedidos de forma conveniente desde sus dispositivos móviles.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Características Principales
+Exploración de Menús: Los clientes pueden ver los distintos platos disponibles, incluyendo menús para el almuerzo, cena y postres.
 
-Currently, two official plugins are available:
+Detalles comida: Al hacer clic en una comida en el menú, los clientes pueden ver información detallada, como la descripción, precio y fotografías.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Realización de Pedidos: Los clientes pueden seleccionar los platos que desean pedir y agregarlos a su carrito de compras.
+
+Carrito de Compras: Los clientes pueden revisar y ajustar su pedido en el carrito de compras antes de finalizarlo.
