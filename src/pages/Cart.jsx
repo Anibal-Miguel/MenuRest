@@ -1,42 +1,33 @@
-// import { Card, Form, Button } from 'react-bootstrap';
+import React from "react";
+import { Container, Row, Col, Table, Button } from "react-bootstrap";
 
-
-function Cart() {
-  
+function Carrito() {
   return (
-// return (
-  //   <Card className="mb-3" style={{ width: "100%" }}>
-  //     <Card.Body>
-  //       <Card.Img
-  //         variant="top"
-  //         src={product.img}
-  //         style={{ width: "64px", float: "left", marginRight: "0.5em" }}
-  //       />
-  //       <Card.Title>{product.name}</Card.Title>
-  //       <Card.Text>
-  //         <span>{product.code}</span> (
-  //         <span>
-  //           <b>{`$ ${(product.price * data.quantity).toFixed(2)}`}</b>
-  //         </span>
-  //         )
-  //       </Card.Text>
-
-  //       <Form.Control
-  //         type="number"
-  //         value={quantity}
-  //         onChange={handleQuantity}
-  //         style={{ float: "left", width: "4em", marginRight: "0.5em" }}
-  //       />
-
-  //       <Button variant="success" onClick={() => {}}>
-  //         <BsFillCartPlusFill style={{ marginRight: "0.5em" }} />
-  //         Cambiar
-  //       </Button>
-  //     </Card.Body>
-  //   </Card>
-  // );
-    <>Carrito</>
+    <Container>
+      <Row>
+        <Col>
+          <h1>Carrito de compras</h1>
+          <Table striped bordered hover>
+            <thead>
+              <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Total</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              {/* Aquí puedes iterar sobre los productos en el carrito y mostrar cada uno en una fila de la tabla */}
+              {/* Puedes usar un map para recorrer los productos y crear una fila de la tabla para cada uno */}
+            </tbody>
+          </Table>
+          <Button variant="danger">Vaciar carrito</Button>
+          <Button variant="success">Realizar compra</Button>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
-export default Cart
+export default Carrito;
