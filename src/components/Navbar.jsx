@@ -1,10 +1,9 @@
-import {Navbar, Nav, Container} from "react-bootstrap";
-import Badge from 'react-bootstrap/Badge';
-import Button from 'react-bootstrap/Button';
+import React from 'react'
 
-function App () {
+const Navbar = () => {
   return (
-    <>
+    <div>
+          <>
       <Navbar expand="lg" bg="dark" sticky="top">
         <Container>
           <Navbar.Brand href="#home">
@@ -13,7 +12,7 @@ function App () {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="">
-              <Nav.Link href="#">Contacto</Nav.Link>
+              <Nav.Link href="#">Registrar</Nav.Link>
               <Nav.Link href="#">Login</Nav.Link>
               <Button className="btn-carrito" variant="primary">
                 <div className="btn-icon">
@@ -27,7 +26,11 @@ function App () {
         </Container>
       </Navbar>
     </>
-  );
+    </div>
+  )
 }
 
-export default App
+export default Navbar
+
+
+

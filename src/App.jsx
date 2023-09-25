@@ -3,7 +3,7 @@ import Navbar from './components/Navbar.jsx';
 import Carrousel from './components/Carrousel.jsx';
 import Cards from './components/Cards.jsx';
 import Footer from './components/Footer.jsx';
-// import Bebidas from './components/Bebidas.jsx';
+import Bebidas from './components/Bebidas.jsx';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Navbar></Navbar>
       <Carrousel />
       <Cards />
-      {/* <Bebidas /> */}
+       <Bebidas /> 
       <Footer />
       <Routes>
 
