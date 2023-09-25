@@ -29,13 +29,14 @@
     background-color: #212529;
     height: 160px;
     padding-top: 30px;
+    position: relative;
+    bottom: 0;
 }
 .footer p{
     color: rgb(241, 240, 174);
 }
 .footer .line{
     margin-top: 20px;
-    width: 200px;
     border: solid 1px rgb(241, 240, 174);
 }
 .footer_title{
@@ -51,19 +52,43 @@
 .footer ion-icon:hover{
     color: rgb(243, 240, 85);
 }
-.btn-carrito{
+.btn-cart{
     color: rgb(241, 240, 174);
     border: solid 1px rgb(241, 240, 174);
     background-color: #212529;
     margin: 5px;
 }
-.btn-carrito:hover{
+.btn-cart:hover{
     color: #212529;
     border: solid 1px rgb(241, 240, 174);
     background-color: rgb(241, 240, 174);
 }
 .btn-icon > ion-icon{
     font-size: 30px;
+}
+.content-home{
+    background-image: url(https://images.unsplash.com/photo-1554306297-0c86e837d24b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1436&q=80);
+    width: 100%;
+    background-size:cover; 
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: soft-light;
+}
+.content-home .content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 250px;
+}
+.content-home .content-text h3{
+    color: rgb(241, 240, 174);
+    font-size: 60px;
+    font-weight: 900;
+}
+.content-home .content-text p{
+    color: rgb(241, 240, 174);
+    font-size: 30px;
+    font-weight: 700;
 }
 .title-menu{
     margin: 20px;
@@ -80,15 +105,33 @@
     display: flex;
     justify-content: space-between;
 }
-.btn-pedir{
-    
+.btn-add{
     border: solid 2px #212529;
     color: #212529;
     text-decoration: none;
     font-weight: 900;
     padding: 5px;
 }
-.btn-pedir:hover{
+.btn-add:hover{
     background-color: #212529;
     color: rgb(241, 240, 174);
+}
+.container-sesion{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.container-sesion h3{
+    color: #212529;
+    font-weight: 900;
+}
+.container-sesion .card{
+    background-color: #212529;
+    color: rgb(241, 240, 174);
+}
+.sesion-button{
+    background-color: rgb(241, 240, 174);
+    border: none;
+    color: #212529;
+    font-weight: 900;
 }

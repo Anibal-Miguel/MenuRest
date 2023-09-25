@@ -10,7 +10,7 @@ function Cards() {
     <Container>
       <Card>
         <Card.Header>
-          <Nav variant="tabs" defaultActiveKey="#first">
+          <Nav variant="tabs" defaultActiveKey="#comidas">
             <Nav.Item>
               <Nav.Link href="#comidas" className="title-menu">
                 Comidas
@@ -18,12 +18,10 @@ function Cards() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link href="#bebidas" className="title-menu">
-                Bebidas
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link href="#postres" className="title-menu">
-                Postres
               </Nav.Link>
             </Nav.Item>
           </Nav>
@@ -46,7 +44,7 @@ function Cards() {
                 
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-pedir"> Pedir </Button>
+                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-add"> Pedir </Button>
               </Card.Footer>
             </Card>
             <Card>
@@ -62,7 +60,7 @@ function Cards() {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-              <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-pedir"> Pedir </Button>
+              <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-add"> Pedir </Button>
               </Card.Footer>
             </Card>
             <Card>
@@ -79,7 +77,7 @@ function Cards() {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-              <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-pedir"> Pedir </Button>
+              <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-add"> Pedir </Button>
               </Card.Footer>
             </Card>
           </CardGroup>
@@ -98,7 +96,7 @@ function Cards() {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-pedir"> Pedir </Button>
+                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-add"> Pedir </Button>
               </Card.Footer>
             </Card>
             <Card>
@@ -114,7 +112,7 @@ function Cards() {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-pedir"> Pedir </Button>
+                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-add"> Pedir </Button>
               </Card.Footer>
             </Card>
             <Card>
@@ -131,7 +129,7 @@ function Cards() {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-pedir"> Pedir </Button>
+                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-add"> Pedir </Button>
               </Card.Footer>
             </Card>
           </CardGroup>
@@ -150,7 +148,7 @@ function Cards() {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-pedir"> Pedir </Button>
+                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-add"> Pedir </Button>
               </Card.Footer>
             </Card>
 
@@ -167,7 +165,7 @@ function Cards() {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-pedir"> Pedir </Button>
+                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-add"> Pedir </Button>
               </Card.Footer>
             </Card>
 
@@ -185,7 +183,7 @@ function Cards() {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-pedir"> Pedir </Button>
+                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-add"> Pedir </Button>
               </Card.Footer>
             </Card>
           </CardGroup>
@@ -204,7 +202,7 @@ function Cards() {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-pedir"> Pedir </Button>
+                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-add"> Pedir </Button>
               </Card.Footer>
             </Card>
 
@@ -221,7 +219,7 @@ function Cards() {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-pedir"> Pedir </Button>
+                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-add"> Pedir </Button>
               </Card.Footer>
             </Card>
 
@@ -239,7 +237,7 @@ function Cards() {
                 </Card.Text>
               </Card.Body>
               <Card.Footer>
-                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-pedir"> Pedir </Button>
+                <small className="text-muted">U$D 10,00</small> <Button variant="link" className="btn-add"> Pedir </Button>
               </Card.Footer>
             </Card>
           </CardGroup>

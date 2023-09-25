@@ -1,23 +1,26 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './pages/Home.jsx';
 import Navbar from './components/Navbar.jsx';
-import Carrousel from './components/Carrousel.jsx';
+// import Carrousel from './components/Carrousel.jsx';
 import Cards from './components/Cards.jsx';
 import Footer from './components/Footer.jsx';
-// import Bebidas from './components/Bebidas.jsx';
+import Login from './pages/Login.jsx';
+import Cart from './pages/Cart.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Navbar></Navbar>
-      <Carrousel />
-      <Cards />
-      {/* <Bebidas /> */}
-      <Footer />
+      
+      {/* <Carrousel /> */}
       <Routes>
-
-        <Route></Route>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/Login' element={<Login />}/>
+        <Route path='/Cards' element={<Cards />}/>
+        <Route path='/Cart' element={<Cart />}/>
       </Routes>
-    </BrowserRouter> 
+      <Footer />
+    </Router> 
   )
 }
 
