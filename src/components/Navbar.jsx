@@ -15,7 +15,7 @@ function App () {
             <Nav className="">
               <Nav.Link href="/Login">Login</Nav.Link>
               <Nav.Link href="/Cards">Menu</Nav.Link>
-              <Nav.Link href="#">Contacto</Nav.Link>
+              <Nav.Link href="/Registro">Registrar</Nav.Link>
               <Button className="btn-cart" variant="primary" href="/Cart">
                 <div className="btn-icon">
                   <ion-icon name="cart" className="cart-icon"></ion-icon>

@@ -6,6 +6,8 @@ import Cards from './components/Cards.jsx';
 import Footer from './components/Footer.jsx';
 import Login from './pages/Login.jsx';
 import Cart from './pages/Cart.jsx';
+import Registro from './pages/Registro.jsx';
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/Login' element={<Login />}/>
+        <Route path='/Registro' element={<Registro/>}/>
         <Route path='/Cards' element={<Cards />}/>
         <Route path='/Cart' element={<Cart />}/>
       </Routes>
