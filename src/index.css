@@ -78,17 +78,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 250px;
+    /* padding: 250px; */
+    padding-top:200px;
+    padding-bottom:200px;
 }
 .content-home .content-text h3{
     color: rgb(241, 240, 174);
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 900;
 }
 .content-home .content-text p{
+    text-align: center;
     color: rgb(241, 240, 174);
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
 }
 .title-menu{
     margin: 20px;
