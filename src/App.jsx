@@ -9,6 +9,7 @@ import Cart from './pages/Cart.jsx';
 import Registro from './pages/Registro.jsx';
 import Administration from './pages/Administration.jsx';
 import Customer from './components/Customer.jsx';
+import Delfood from './components/Delfood.jsx';
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
         <Route path='/Cards' element={<Cards />}/>
         <Route path='/Cart' element={<Cart />}/>
         <Route path='/Customer' element={<Customer/>}/>
+        <Route path='/Delfood' element={<Delfood/>}/>
+
       </Routes>
       <Footer />
     </Router> 

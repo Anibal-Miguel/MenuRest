@@ -11,7 +11,7 @@ function App () {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="">
             <Nav.Link href="/Customer">Clientes</Nav.Link>
-              <Nav.Link href="/Login">Comida</Nav.Link>              
+              <Nav.Link href="/Delfood">Comida</Nav.Link>              
             </Nav>
           </Navbar.Collapse>
         </Container>
