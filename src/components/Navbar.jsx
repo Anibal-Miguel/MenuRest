@@ -13,6 +13,7 @@ function App () {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="">
+            <Nav.Link href="/Administration">Adminstrasion</Nav.Link>
               <Nav.Link href="/Login">Login</Nav.Link>
               <Nav.Link href="/Cards">Menu</Nav.Link>
               <Nav.Link href="/Registro">Registrar</Nav.Link>

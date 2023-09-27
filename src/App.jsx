@@ -7,6 +7,8 @@ import Footer from './components/Footer.jsx';
 import Login from './pages/Login.jsx';
 import Cart from './pages/Cart.jsx';
 import Registro from './pages/Registro.jsx';
+import Administration from './pages/Administration.jsx';
+import Customer from './components/Customer.jsx';
 
 
 function App() {
@@ -17,10 +19,12 @@ function App() {
       {/* <Carrousel /> */}
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/Administration' element={<Administration />}/>
         <Route path='/Login' element={<Login />}/>
         <Route path='/Registro' element={<Registro/>}/>
         <Route path='/Cards' element={<Cards />}/>
         <Route path='/Cart' element={<Cart />}/>
+        <Route path='/Customer' element={<Customer/>}/>
       </Routes>
       <Footer />
     </Router> 
